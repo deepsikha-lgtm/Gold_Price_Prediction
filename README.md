@@ -4,17 +4,20 @@ A machine learning web application that predicts the current price of 1 gram of 
 
 ## 🌐 GitHub Repository
 
-**Project URL:** [https://github.com/your-username/gold-price-predictor](https://github.com/your-username/gold-price-predictor)
+**Project URL:** [https://github.com/deepsikha-lgtm/Gold_Price_Prediction](https://github.com/deepsikha-lgtm/Gold_Price_Prediction)
 
 
-git clone https://github.com/your-username/gold-price-predictor.git
+git clone https://github.com/deepsikha-lgtm/Gold_Price_Prediction
+
+~~~
 cd gold-price-predictor
+~~~
 
-📋 Overview
+📋 OVERVIEW
 
 This application uses a pre-trained machine learning model to predict gold prices in Indian Rupees (INR) per gram based on the current USD/INR exchange rate. The model is deployed as an interactive web interface using Gradio.
 
-✨ Features
+✨ FEATURES
 
 Real-time Prediction: Get instant gold price predictions
 
@@ -26,21 +29,25 @@ Live Deployment: Shareable web application
 
 Accurate Forecasting: Trained on historical gold price data
 
-🛠️ Installation
+🛠️ INSTALLATION
 
 Prerequisites
 
+~~~
 Python 3.7 or higher
 
 pip (Python package manager)
+~~~
 
 Dependencies
 
 Install the required packages:
 
+~~~
 pip install gradio scikit-learn numpy
+~~~
 
-🚀 Usage
+🚀 USAGE
 
 Running the Application
 
@@ -48,11 +55,13 @@ Clone or download this repository
 
 Ensure you have the model files in the correct path:
 
+~~~
 regressor.pkl - Trained ML model
 
 scaler.pkl - Data scaler
+~~~
 
-Run the application:
+RUN THE APPLICATION:
 
 python app.py
 
@@ -68,6 +77,7 @@ View the predicted price for 1 gram of gold in INR
 
 Example
 
+~~~
 Input:
 
 USD/INR: 83.50
@@ -75,19 +85,27 @@ USD/INR: 83.50
 Output:
 
 Predicted Gold Price: 6250.75 INR per gram
+~~~
 
-📁 Project Structure
+📁 PROJECT STRUCTURE
 
 gold-price-predictor/
-│
-├── app.py                 # Main application file
-├── regressor.pkl         # Trained ML model
-├── scaler.pkl            # Data scaler
-├── requirements.txt      # Python dependencies
-├── README.md            # Project documentation
-└── .gitignore           # Git ignore file
 
-🔧 Technical Details
+│
+
+├── app.py                # Main application file
+
+├── regressor.pkl         # Trained ML model
+
+├── scaler.pkl            # Data scaler
+
+├── requirements.txt      # Python dependencies
+
+├── README.md             # Project documentation
+
+└── .gitignore            # Git ignore file
+
+🔧 TECHNICAL DETAILS
 
 Machine Learning Components
 
@@ -99,8 +117,9 @@ Input Feature: USD/INR exchange rate
 
 Output: Gold price in INR per gram
 
-Framework
+FRAMEWORK
 
+~~~
 Gradio: For web interface deployment
 
 Scikit-learn: Machine learning model
@@ -108,8 +127,9 @@ Scikit-learn: Machine learning model
 NumPy: Numerical computations
 
 Pickle: Model serialization
+~~~
 
-🌐 Deployment
+🌐 DEPLOYMENT
 
 The application includes shareable deployment:
 
@@ -125,7 +145,7 @@ Specific port:
 
 demo.launch(server_name="0.0.0.0", server_port=7860)
 
-📊 Model Information
+📊 MODEL INFORMATION
 
 The prediction model is trained on historical data with the following characteristics:
 
@@ -137,7 +157,7 @@ Preprocessing: Standard scaling applied
 
 Model: Pre-trained regression model
 
-🤝 Contributing
+🤝 CONTRIBUTING
 
 Contributions are welcome! Please feel free to submit pull requests or open issues for:
 
@@ -155,19 +175,25 @@ Fork the repository
 
 Create a feature branch:
 
+~~~
 git checkout -b feature/amazing-feature
+~~~
 
 Commit your changes:
 
+~~~
 git commit -m 'Add some amazing feature'
+~~~
 
 Push to the branch:
 
+~~~
 git push origin feature/amazing-feature
+~~~
 
 Open a Pull Request
 
-⚠️ Limitations
+⚠️ LIMITATIONS
 
 Predictions are based on USD/INR rates only
 
@@ -177,11 +203,11 @@ Does not account for sudden market fluctuations
 
 Regional taxes and making charges not included
 
-📄 License
+📄 LICENSE
 
 This project is for educational and demonstration purposes.
 
-📞 Support
+📞 SUPPORT
 
 For questions or issues:
 
